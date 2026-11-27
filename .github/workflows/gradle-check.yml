@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout sources
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
     - name: setup xvfb environment
       run: sudo apt-get install -f -q xvfb libsm-dev libxrender1 libxext-dev libxtst-dev libxcb1-dev fonts-dejavu xfonts-base xfonts-scalable
     - name: Setup Java
